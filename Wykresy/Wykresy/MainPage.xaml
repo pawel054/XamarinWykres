@@ -16,4 +16,5 @@
             <Grid x:Name="gridWykres" Grid.Row="1"/>
         </Grid>
     </ContentPage>
+    <ContentPage Title="Kołowy"></ContentPage>
 </TabbedPage>

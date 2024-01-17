@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Wykresy.EditPage"
+             Title="Edytuj dane">
+    <ContentPage.Content>
+        <StackLayout Margin="25">
+            <Entry x:Name="entryTitle" Placeholder="Tytuł wykresu"/>
+            <Grid x:Name="gridDane" RowSpacing="10" ColumnSpacing="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Entry Grid.Row="0" Placeholder="Seria 1"/>
+                <Entry Grid.Row="1" Placeholder="Seria 2"/>
+                <Entry Grid.Row="2" Placeholder="Seria 3"/>
+                <Entry Grid.Row="3" Placeholder="Seria 4"/>
+                <Entry Grid.Row="4" Placeholder="Seria 5"/>
+                <Entry Grid.Row="5" Placeholder="Seria 6"/>
+                <Entry Grid.Row="6" Placeholder="Seria 7"/>
+                
+                <Entry Grid.Row="0" Grid.Column="1" Placeholder="Dana 1"/>
+                <Entry Grid.Row="1" Grid.Column="1" Placeholder="Dana 2"/>
+                <Entry Grid.Row="2" Grid.Column="1" Placeholder="Dana 3"/>
+                <Entry Grid.Row="3" Grid.Column="1" Placeholder="Dana 4"/>
+                <Entry Grid.Row="4" Grid.Column="1" Placeholder="Dana 5"/>
+                <Entry Grid.Row="5" Grid.Column="1" Placeholder="Dana 6"/>
+                <Entry Grid.Row="6" Grid.Column="1" Placeholder="Dana 7"/>
+            </Grid>
+            <Button Text="Zatwierdź" BackgroundColor="Blue" TextColor="White" CornerRadius="15" Margin="25" Clicked="BtnClicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
