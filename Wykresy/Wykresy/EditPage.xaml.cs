@@ -16,6 +16,7 @@ namespace Wykresy
         {
             InitializeComponent();
 
+
         }
 
         private void BtnClicked(object sender, EventArgs e)
