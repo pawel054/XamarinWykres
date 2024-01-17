@@ -15,6 +15,12 @@ namespace Wykresy
         public EditPage()
         {
             InitializeComponent();
+
+        }
+
+        private void BtnClicked(object sender, EventArgs e)
+        {
+
         }
     }
 }
